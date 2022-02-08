@@ -297,15 +297,6 @@ let colorB = 0;
 let allScl = 0;
 
 
-function pageChange_mobile() {
-    if (window.innerWidth <= 1500) {
-        window.location.href = "./";
-    }
-}
-pageChange_mobile();
-
-window.addEventListener("resize", pageChange_mobile);
-
 function onScrollWindow(e){
     scl = window.scrollY;
     // 스크롤값 백퍼센트 값으로 반환.
